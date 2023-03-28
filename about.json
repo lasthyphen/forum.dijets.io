@@ -1,10 +1,12 @@
 {
-  "name": "Theme name",
+  "name": "Dijets Forum Theme",
   "about_url": "Theme about url",
-  "license_url": "https://github.com/aragon/forum/blob/master/LICENSE",
+  "license_url": "https://github.com/lasthyphen/forum.dijet.io/blob/master/LICENSE",
   "assets": {
-    "ManropeRegular": "assets/Manrope-Regular.otf",
-    "ManropeLight": "assets/Manrope-Light.otf"
+    "UberMoveTextRegular": "assets/UberMoveTextRegular.otf",
+    "UberMoveTextLight": "assets/UberMoveTextLight.otf",
+    "UberMoveTextMedium": "assets/UberMoveTextMedium.otf",
+    "UberMoveTextBold": "assets/UberMoveTextBold.otf"
   },
   "color_schemes": {
       "light": {
