@@ -1,16 +1,26 @@
 // Font
 
 @font-face {
-  font-family: 'ManropeRegular';
-  src: url($ManropeRegular);
+  font-family: 'UberMoveTextRegular';
+  src: url($UberMoveTextRegular);
 }
 
 @font-face {
-  font-family: 'ManropeLight';
-  src: url($ManropeLight);
+  font-family: 'UberMoveTextLight';
+  src: url($UberMoveTextLight);
+}
+
+@font-face {
+  font-family: 'UberMoveTextMedium';
+  src: url($UberMoveTextMedium);
+}
+
+@font-face {
+  font-family: 'UberMoveTextBold';
+  src: url($UberMoveTextBold);
 }
 body {
-  font-family: "ManropeRegular", sans-serif;
+  font-family: "UberMoveTextRegular", sans-serif;
   //overflow-x: hidden;
 }
 
@@ -621,7 +631,7 @@ nav.post-controls button:focus {
     top: 38%;
     transform: translate(-50%);
     color: white;
-    font-family: "ManropeLight", "ManropeRegular", sans-serif;
+    font-family: "UberMoveTextLight", "UberMoveTextRegular", "UberMoveTextMedium", "UberMoveTextBold", sans-serif;
     line-height: 40px;
     font-size: 30px;
     text-align: center;
@@ -639,7 +649,7 @@ nav.post-controls button:focus {
     top: 60px;
     h1 {
       display: block;
-      font-family: "ManropeLight", "ManropeRegular", sans-serif;
+      font-family: "UberMoveTextMedium", "UberMoveTextRegular", sans-serif;
       line-height: 56px;
       font-size: 42px;
       font-weight: 100;
